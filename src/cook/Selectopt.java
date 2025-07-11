@@ -11,6 +11,7 @@ public class Selectopt extends JPanel{
 		setLayout(new GridLayout(6, 1, 10, 10));
 		JButton cookButton = new JButton("料理登録ボタン");
 		 cookButton.addActionListener(e -> frame.showPanel("COOK"));
+		JButton selRamButton = new JButton("");
 		 
 		 add(cookButton);
 	}
